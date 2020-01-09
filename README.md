@@ -1,9 +1,16 @@
 # issue_tracker
-FreeCodeCamp- Information Security and Quality Assurance
+FreeCodeCamp - Information Security and Quality Assurance
 
-  1.  SET NODE_ENV to test without quotes and set DB to your mongo connection string in .env file
-  2.  Complete the project in routes/api.js or by creating a handler/controller
-  3.  You will add any security features to server.js
-  4.  You will create all of the functional tests in tests/2_functional-tests.js
-
+ The following details are present in the issue tracking process:
+ 
+ - Title, text, Created By are required fields).
+ - Assigned to, Status text are optional fields.
+ 
+ To create the issue, the user should hit the Submit Issue-button.
+ 
+ Similarly we can update and delete the issue. 
+ For updating the issue, we need to enter the id. All other fields are optional. There is also a checkbox for marking the issue as closed. Lastly the user should hit the Update Issue-button for the issue to be updated.
+ 
+ For deleting the issue, we need the id to be entered and then we hit the Delete Issue-button.
+ 
 
